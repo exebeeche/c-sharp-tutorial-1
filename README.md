@@ -2,11 +2,11 @@
 # Bouncing balls C# Tutorial
 
 In this tutorial, you create a game with bouncing balls.
-The tutorial includes four articles explaining how to build the game step by
+The tutorial includes four articles explaining how to build the game step by 
 step.
 The game consists of two panels with bouncing balls and control elements.
 
-Using this tutorial, you'll learn how:
+In this tutorial, you'll learn how:
 
 - Create a Visual Studio project that uses Windows Forms
 - Add labels, panels, and score statistics
@@ -15,7 +15,7 @@ Using this tutorial, you'll learn how:
 
 ## Prerequisites
 
-The Visual Studio Integrated Design Environment (IDE) provides the tools you
+The Visual Studio Integrated Design Environment (IDE) provides the tools you 
 need to create the app.
 To install Visual Studio IDE, see [Download page](https://visualstudio.
 microsoft.com/vs/).
@@ -26,8 +26,9 @@ see [Welcome to the Visual Studio IDE](https://docs.microsoft.com/en-us/visualst
 
 - [Create your Windows Forms project](create-your-windows-forms-project.md)
 - [Create a ball](create-a-ball.md)
+- [Make the ball move](make-the-ball-move.md)
 - [Add balls to the form](add-balls-to-the-form.md)
-- [Save and run the program](save-and-run-the-program.md)
+- [Save and run the game](save-and-run-the-game.md)
 
 
 

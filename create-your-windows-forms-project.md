@@ -10,13 +10,13 @@ The first step of your app is to create a Windows Forms App project. In this art
 3. On the **Create a new project** window, search for Windows Forms.
    Also, you can use the filters to cut the option list.
    Choose _C#_ in the **All languages** list,
-   _Windows_ in the **All platforms** list, and Desktop in the **All project
+   _Windows_ in the **All platforms** list, and Desktop in the **All project 
    types** list.
 
-4. Select the **Windows Forms App (.NET Framework)** template for _C#_, and
+4. Select the **Windows Forms App (.NET Framework)** template for _C#_, and 
    then select Next.
 
-5. In the **Configure your new project** window, name your project _Bouncing
+5. In the **Configure your new project** window, name your project _Bouncing 
    balls_, then select Create.
 
 Visual Studio creates a solution for your app.
@@ -30,8 +30,7 @@ Now you can move further with properties and layout elements.
 
    If you do not see **Properties**, select **View > Properties Window** or press **F4**.
 
-2. Find the **Text** property in the **Properties** window. The
-   **Appearance** category includes the **Text** property. Depending on how the property list is sorted, you may need to scroll down. Enter the value **Bouncing balls**, and then press **Enter**.
+2. Find the **Text** property in the **Properties** window. The **Appearance** category includes the **Text** property. Depending on how the properties list is sorted, you may need to scroll down. Enter the value **Bouncing balls**, and then press **Enter**.
 
    Your form now has the text **Bouncing balls** in its title bar.
 
