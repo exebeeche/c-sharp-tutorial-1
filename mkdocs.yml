@@ -1,0 +1,71 @@
+
+site_name: The Bouncing Balls Tutorial
+docs_dir: 'docs/'
+site_dir: 'generated/'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+theme:
+  name: material
+  palette:
+    primary: 'blue'
+  custom_dir: overrides
+  font:
+    text: Inter
+    code: Roboto Mono
+    icon:
+      admonition:
+        note: fontawesome/solid/note-sticky
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - header.autohide
+    - content.code.annotate
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/anzhelika-andronova/
+
+markdown_extensions:
+  - meta
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - abbr
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      toc_depth: 2
+
+nav:
+  - Get started: index.md
+  - Step 1. Create your Windows forms project: create-your-windows-forms-project.md
+  - Ste 2. Create a ball: create-a-ball.md
+  - Step 3. Make the ball move: make-the-ball-move.md
+  - Step 4. Add balls to the form: add-balls-to-the-form.md
+  - Step 5. Save and rune the game: save-and-run-the-game.md
+
+
