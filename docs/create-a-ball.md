@@ -34,21 +34,10 @@ the **Project name** box and then click **Next**.
    This library is located in **Solution&nbsp;Explorer**.
    By default, you can see the **UserControl** form on Visual Studio.
 
-7. Rename the main _.cs_ file to the _ball.cs_ in the **Solution&nbsp;Explorer**.
+7. Rename the main _.cs_ file to the _Ball.cs_ in the **Solution&nbsp;
+   Explorer**.
 
 8. Double-click [PictureBox](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.label) in the **Toolbox** or drag it to the form. Move the control to the upper-left corner of the form. Resize the form to the **PictureBox** size.
-
-## Add the Ball library to the Toolbox of the form
-
-Now you need to add the dependencies of the Ball library to your project.
-
-1. Build the **Ball** library before adding the dependency into the app. Select **Build&nbsp;>&nbsp;Build Ball** or press **Ctrl**&nbsp;+&nbsp;**B**.
-
-2. Select the **References** category in the **Solution&nbsp;Explorer** of your app, right-click, and select **Add&nbsp;Reference**.
-
-3. Select the **Projects** category, check the **Ball**, and click **OK**.
-
-4. Go to the design file of the form and you can see the Ball element in the **Toolbox**.
 
 If you cannot see the **Ball** element in the **Toolbox** then add the 
 **UserControl** item to the **Toolbox**.
@@ -92,14 +81,17 @@ If you cannot see the **Ball** element in the **Toolbox** then add the
    }
 ```
 
-4. Add `System.Drawing.Drawing2D;` namespace into the list using the `using` directive and change the namespace to the **BouncingBalls**.
+4. Add `System.Drawing.Drawing2D;` namespace into the list using the `using` 
+   directive and change the namespace to the **Bouncing_Balls**. This is the 
+   same namespace that the main form _Form1.cs_ uses.
 
 5. Add the following code to draw a circle. Place this code sample into the `Ball()` class right after the `InitializeComponent();` method.
 ``` C#
-   //Create a ball and assign to the ball the pictureBox1 element
+   
    public Ball()
    {
        InitializeComponent();
+       //Create a ball and assign to the ball the pictureBox1 element
        GraphicsPath path = new GraphicsPath();
        path.AddEllipse(0, 0, 50, 50);
        Region rgn = new Region(path);
@@ -158,7 +150,20 @@ In this code sample, the [Color](https://learn.microsoft.com/en-us/dotnet/api/sy
        }
    }
 ```
- 
+
+## Add the Ball library to the Toolbox of the form
+
+Now you need to add the dependencies of the Ball library to your project.
+
+1. Build the **Ball** library before adding the dependency into the app. Select **Build&nbsp;>&nbsp;Build Ball** or press **Ctrl**&nbsp;+&nbsp;**B**.
+
+2. Select the _Bouncing balls_ **References** category in the **Solution&nbsp;
+   Explorer** of your app, right-click, and select **Add&nbsp;Reference**.
+
+3. Select the **Projects** category, check the **Ball**, and click **OK**.
+
+4. Go to the design file of the form and you can see the Ball element in the **Toolbox**. 
+
 ## Run your app
 
 In this step, you can run your app and check if everything is good.

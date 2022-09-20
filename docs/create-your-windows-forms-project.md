@@ -81,19 +81,20 @@ Now you can continue with properties and layout elements.
 
 5. Double-click [**ListBox**](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.listbox) in the **Toolbox** or drag it to the form. Move the control just below the **Panel** control. Set the **ListBox** size to 350, 160.
 
-!!! note
-
-      In this step, you may not change other properties of these controls.
-      <br>
-      You will change the behavior of the controls during the next steps.
-
-&nbsp;6. Select anywhere on the form.
+6. Select anywhere on the form.
    Press **Ctrl**&nbsp;+&nbsp;**A** buttons. You will select all control elements.
    Press **Ctrl**&nbsp;+&nbsp;**C** and then **Ctrl**&nbsp;+&nbsp;**V** buttons.
    Use the arrows icon to move selected elements to the right part of the form.
 
-&nbsp;7. In the end, your form should look like the image below.
-   ![](/assets/images/layout.png)
+7. In the end, your form should look like the image below.
+   
+      ![](/assets/images/layout.png)
+
+!!! note
+
+      In this steps, you may not change other properties of these controls.
+      <br>
+      You will change the behavior of the controls during the next steps.
 
 ## Run your app
 
